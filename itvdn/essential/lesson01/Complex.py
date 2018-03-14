@@ -28,9 +28,11 @@ class Complex:
         return self.real == other.real and self.imaginary == other.imaginary
 
 
-# c = Complex(2, 5)
-# print(c)
-# print(Complex(5, -3))
-#
-# print(Complex(2, 3) - Complex(1, 1))
-print(Complex.__abs__(5))
+c = Complex(2, 5)
+print(c)
+
+print(Complex(5, -3))
+print(Complex(2, 3) - Complex(1, 1))
+
+print(abs(8))
+print(abs(Complex(2, 3)))
